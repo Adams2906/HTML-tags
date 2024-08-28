@@ -1,0 +1,17 @@
+body {
+    display: flex;             /* Use Flexbox */
+    flex-direction: column;    /* Arrange items in a column */
+    align-items: center;       /* Center items horizontally */
+    justify-content: center;   /* Center items vertically */
+    min-height: 100vh;         /* Ensure the body takes up full viewport height */
+    margin: 0;                 /* Remove default body margin */
+    background-color: black;   /* Set background color to black */
+}
+
+main {
+    background-color: black;   /* Ensure the main element also has a black background */
+    padding: 20px;             /* Optional padding */
+    width: 100%;
+    text-align: center;        /* Center text */
+    color: white;              /* Text color white for contrast */
+}
