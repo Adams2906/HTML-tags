@@ -49,6 +49,7 @@
  position: relative;
 background: linear-gradient(180deg, #5401a7, #7126bd);
 width: 100%;
+height: 100%;
 display: flex;
 flex-direction: row;
 align-items: center;
