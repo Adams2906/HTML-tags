@@ -1,0 +1,27 @@
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="download (1)" clip-path="url(#clip0_114_63)">
+<g id="Clip path group">
+<mask id="mask0_114_63" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<g id="clip0_55_2925">
+<path id="Vector" d="M46 0H0V46H46V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_114_63)">
+<g id="Group">
+<path id="Vector_2" d="M23 46C35.7025 46 46 35.7025 46 23C46 10.2975 35.7025 0 23 0C10.2975 0 0 10.2975 0 23C0 35.7025 10.2975 46 23 46Z" fill="#627EEA"/>
+<path id="Vector_3" d="M23.3594 7.48047V18.9538L33.0568 23.287L23.3594 7.48047Z" fill="white" fill-opacity="0.602"/>
+<path id="Vector_4" d="M23.3588 7.48047L13.6602 23.287L23.3588 18.9538V7.48047Z" fill="white"/>
+<path id="Vector_5" d="M23.3594 30.723V38.519L33.0632 25.0938L23.3594 30.723Z" fill="white" fill-opacity="0.602"/>
+<path id="Vector_6" d="M23.3588 38.519V30.7217L13.6602 25.0938L23.3588 38.519Z" fill="white"/>
+<path id="Vector_7" d="M23.3594 28.9182L33.0568 23.2876L23.3594 18.957V28.9182Z" fill="white" fill-opacity="0.2"/>
+<path id="Vector_8" d="M13.6602 23.2876L23.3588 28.9182V18.957L13.6602 23.2876Z" fill="white" fill-opacity="0.602"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_114_63">
+<rect width="46" height="46" fill="white"/>
+</clipPath>
+</defs>
+</svg>
