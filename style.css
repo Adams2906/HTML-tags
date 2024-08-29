@@ -1,17 +1,186 @@
-body {
-    display: flex;             /* Use Flexbox */
-    flex-direction: column;    /* Arrange items in a column */
-    align-items: center;       /* Center items horizontally */
-    justify-content: center;   /* Center items vertically */
-    min-height: 100vh;         /* Ensure the body takes up full viewport height */
-    margin: 0;                 /* Remove default body margin */
-    background-color: black;   /* Set background color to black */
+.frame-child {
+    width: 84px;
+    position: relative;
+    border-radius: 84px;
+    height: 84px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.linked-influencer {
+    position: relative;
+    font-weight: 600;
+}
+.frame-parent {
+    position: absolute;
+    top: 72px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 23px;
+}
+.frame-item {
+    position: absolute;
+    top: 262.5px;
+    left: calc(50% - 296px);
+    border-top: 1px solid #3e3e3e;
+    box-sizing: border-box;
+    width: 592px;
+    height: 1px;
+}
+.frame-inner {
+    position: absolute;
+    top: 538.5px;
+    left: calc(50% - 296px);
+    border-top: 1px solid #3e3e3e;
+    box-sizing: border-box;
+    width: 592px;
+    height: 1px;
+}
+.select-one-of {
+    position: absolute;
+    top: 219px;
+    left: 28px;
+    font-weight: 500;
+}
+.as-an-influencer-wrapper {
+    position: absolute;
+    top: calc(50% - 30.5px);
+    left: 0px;
+    background: linear-gradient(180deg, #5401a7, #7126bd);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 31px;
+}
+.as-a-project {
+    position: relative;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
+.as-a-project-owner-wrapper {
+    position: absolute;
+    top: 6px;
+    left: 290px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #989898;
+}
+.frame-group {
+    width: 535px;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 61px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: 18px;
+}
+.log-in-parent {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 28px;
+    color: #fafafa;
+}
+.frame-icon {
+    width: 96px;
+    position: relative;
+    border-radius: 120px;
+    height: 96px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.frame-child1 {
+    width: 96px;
+    position: relative;
+    border-radius: 120px;
+    height: 96px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.image-42-icon {
+    width: 96px;
+    position: relative;
+    height: 96px;
+    object-fit: cover;
+}
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.continue-with-parent {
+    position: absolute;
+    top: 295px;
+    left: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 24px;
+    color: #fafafa;
+}
+.view-more-options {
+    position: relative;
+    font-weight: 500;
+}
+.mdimenu-down-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.view-more-options-parent {
+    position: absolute;
+    top: 477px;
+    left: 372px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.line-parent {
+    position: absolute;
+    top: calc(50% - 332.5px);
+    left: calc(50% - 295.5px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    background-color: #282828;
+    border: 2px solid rgba(158, 158, 158, 0.48);
+    box-sizing: border-box;
+    width: 591px;
+    height: 605px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #989898;
+}
+.login {
+    width: 100%;
+    position: relative;
+    background-color: #1d1c1c;
+    height: 1485px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Glancyr;
 }
 
-main {
-    background-color: black;   /* Ensure the main element also has a black background */
-    padding: 20px;             /* Optional padding */
-    width: 100%;
-    text-align: center;        /* Center text */
-    color: white;              /* Text color white for contrast */
-}
