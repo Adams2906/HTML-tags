@@ -1,8 +1,8 @@
 .frame-child {
-    width: 84px;
+    width: 64px;
     position: relative;
-    border-radius: 84px;
-    height: 84px;
+    border-radius: 64px;
+    height: 64px;
     overflow: hidden;
     flex-shrink: 0;
     object-fit: cover;
@@ -11,15 +11,27 @@
     position: relative;
     font-weight: 600;
 }
+
+.linkedd-influencer {
+  position: relative;
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: Glancyr;
+}
+
+
+
 .frame-parent {
     position: absolute;
     top: 72px;
-    left: 200px;
+    left: 72px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 23px;
+    gap: 8px;
 }
 .frame-item {
     position: absolute;
