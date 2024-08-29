@@ -174,7 +174,7 @@
 }
 .line-parent {
     position: absolute;
-    top: calc(50% - 432.5px);
+    top: calc(50% - 532.5px);
     left: calc(50% - 295.5px);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 18px;
